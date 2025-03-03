@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>TrashCure - Empowering Responsible Waste Management, Let's Make a Difference</title>
+  <meta name="keywords" content="TrashCure - Empowering Responsible Waste Management, Let's Make a Difference">
+  <meta name="robots" content="INDEX,FOLLOW">
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons  -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo.svg">
+  <!-- framework of css -->
+  <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css">
+  <!-- style sheet of css -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- responsive sheet of css -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <!-- font awesome icon link  -->
+  <link rel="stylesheet" href="assets/font-awesonw-lib/icon/all.min.css">
+  <!-- slick-slider link css -->
+  <link rel="stylesheet" href="assets/css/slick.min.css">
+  <!-- animation of css -->
+  <link rel="stylesheet" href="assets/css/aos.css">
+
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="OtherPages_bg">
+      <!-- 1.1. header section -->
+      <header>
+        <nav class="container navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="index.html" class="nav-logo p-0">
+              <figure>
+                <img src="assets/images/logo.svg" alt="logo">
+              </figure>
+            </a>
+            <button class="open-aside" onclick="open_aside()" type="button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul
+                class="navbar-nav d-flex justify-content-center align-items-center gap-lg-4 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Service.html">Services</a>
+                </li>
+                <li class="dropdown">
+                  <a class="nav-link" href="#">
+                    Pages<i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item active" href="SingleService.html">Single Service </a>
+                    </li>
+                    <li><a class="dropdown-item" href="PricingPlan.html">Pricing Plan</a></li>
+                    <li>
+                      <a class="dropdown-item" href="Team.html">Team</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="SingleBlog.html">Single Blog </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="FAQs.html">FAQ</a>
+                    </li>
+                    <li><a class="dropdown-item" href="CommingSoon.html">Comming soon</a></li>
+                    <li><a class="dropdown-item" href="Error.html">404</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+              </ul>
+              <div>
+                <a href="Contact.html"><button class="hover1">Get a Quote</button></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- aside navigation slidebar-->
+        <aside>
+          <div id="mySidenav" class="right-sidbar">
+            <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+              <figure class="navbar-brand">
+                <a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+              </figure>
+              <button class="fa-solid fa-xmark " onclick="close_aside()"></button>
+            </div>
+            <ul>
+              <li class="nav-item ">
+                <a class="active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="Service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="Blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="Contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <div class="d-flex align-items-center justify-content-between" id="slid-btn">
+                  <button class="a-slid page-btn">Pages</button>
+                  <i class="fa-solid fa-caret-down pe-2"></i>
+                </div>
+                <ul id="slid-drop">
+                  <li><a href="FAQs.html">FAQs</a></li>
+                  <li><a href="Team.html">Team</a></li>
+                  <li><a href="testing.html">Testimonials</a></li>
+                  <li><a href="Pricing.html">Pricing</a></li>
+                  <li><a href="SinglePost.html">Single Post</a></li>
+                  <li><a href="Services.html">Services</a></li>
+                  <li><a href="CommingSoon.html">Coming Soon</a></li>
+                  <li><a href="Error.html">404</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </header>
+      <!-- End of 1.1. header section  -->
+      <!-- 4.1 SingleService_hero section -->
+      <div class="Pages_hero">
+        <div class="container">
+          <div class="d-flex flex-column">
+            <h1>Services</h1>
+            <div class="d-flex align-items-center">
+              <h4>Home</h4>
+              <i class="fa-solid fa-arrow-right-long"></i>
+              <h4>Services</h4>
+              <i class="fa-solid fa-arrow-right-long"></i>
+              <h4>Industries Waste Pickup</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of 4.1 SingleService_hero section -->
+    </div>
+    <!-- 4.2 SingleServic_view section  -->
+    <section class="SingleService_view">
+      <div class="container">
+        <div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4">
+              <div>
+                <div class="w3-sidebar w3-bar-block w3-light-grey w3-card">
+                  <h4 class="w3-bar-item">Our Services</h4>
+                  <button class="w3-bar-item w3-button tablink w-100" onclick="openCity(event, 'London')">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5>Domestic Waste Pickup</h5>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </button>
+                  <button class="w3-bar-item w3-button tablink w-100" onclick="openCity(event, 'Paris')">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5>Medical Waste Pickup </h5>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </button>
+                  <button class="w3-bar-item w3-button tablink w-100" onclick="openCity(event, 'Tokyo')">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5>Industries Waste Pickup </h5>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </button>
+                  <button class="w3-bar-item w3-button tablink w-100" onclick="openCity(event, 'Paris')">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5>Office Waste Pickup </h5>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </button>
+                  <button class="w3-bar-item w3-button tablink w-100" onclick="openCity(event, 'Tokyo')">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5>Roadside Waste Pickup </h5>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </button>
+                  <button class="w3-bar-item w3-button tablink w-100" onclick="openCity(event, 'Tokyo')">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5>Park Waste Pickup</h5>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </button>
+                </div>
+                <div class="px-4">
+                  <h4>Download Brochures </h4>
+                  <hr>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center">
+                      <figure>
+                        <img src="assets/images/icons/pdficon.svg" alt="pdficon">
+                      </figure>
+                      <a href="#" class="hover2">Our Report 2024</a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <figure>
+                        <img src="assets/images/icons/pdficon.svg" alt="pdficon">
+                      </figure>
+                      <a href="#" class="hover2 ">Comapnay Brochure</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-column gap-2 mt-5 ">
+                  <h4>Your Satisfaction is Our Priority</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur. Venenatis viverra nunc mattis a
+                    turpis magnis. </p>
+                  <div class="d-flex flex-column gap-2">
+                    <div class="d-flex align-items-center gap-4">
+                      <figure class="d-flex align-items-center justify-content-center">
+                        <img src="assets/images/icons/singleservice1.svg" alt="singleservice1">
+                      </figure>
+                      <a href="#">+123-4567-890</a>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                      <figure class="d-flex align-items-center justify-content-center">
+                        <img src="assets/images/icons/singleservice2.svg" alt="singleservice">
+                      </figure>
+                      <a href="#">xyz@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-8">
+              <div class="d-flex flex-column gap-1 ">
+                <h2>Overview</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Venenatis viverra nunc mattis a turpis
+                  magnis. Scelerisque
+                  fermentum nunc fringilla ullamcorper diam eget felis netus. Feugiat facilisis
+                  sed a neque. Urna fusce
+                  diam at at magna faucibus dui tincidunt. Habitant aliquam tincidunt at quis sit.
+                  Adipiscing et morbi
+                  sed tristique ligula. Massa risus sociis id neque. Turpis ornare libero nisi
+                  maecenas amet ullamcorper
+                  tortor aliquam. Venenatis vel neque mauris eu gravida. Blandit convallis
+                  tincidunt volutpat non.
+                  Porttitor eget sed adipiscing egestas sodales ornare lobortis est. Lectus
+                  porttitor nibh risus aliquam
+                  proin nullam id fames arcu. Pellentesque mauris orci pellentesque accumsan nulla
+                  scelerisque neque
+                  lacus. Neque laoreet est sodales mauris nisl consectetur. Molestie felis ornare
+                  leo faucibus ut in
+                  quis velit morbi. Egestas est quis enim lacinia fringilla egestas sollicitudin
+                  dui.
+                </p>
+                <p> Dictum egestas eget quis lobortis scelerisque condimentum. Amet tellus tempor
+                  urna pharetra amet
+                  pharetra adipiscing accumsan pellentesque. Id viverra vulputate diam bibendum
+                  diam mi felis fames sed.
+                  Ornare consequat sed nisl tempor lectus. Congue mattis fermentum volutpat
+                  pharetra vulputate quis.
+                </p>
+                <div class="position-relative">
+                  <figure class="pt-3">
+                    <img class="w-100" src="assets/images/index/singleservice1.png" alt="singlesecives2">
+                  </figure>
+                  <div class="Guide-video" data-bs-toggle="modal" data-bs-target="#staticBackdropVideo">
+                    <a class="video-play-button" href="#" id="playButton">
+                      <span class="fa-solid fa-play"></span>
+                    </a>
+                  </div>
+                </div>
+                <p class="pt-4">Lorem ipsum dolor sit amet consectetur. Venenatis viverra nunc
+                  mattis a turpis magnis. Scelerisque
+                  fermentum nunc fringilla ullamcorper diam eget felis netus. Feugiat facilisis
+                  sed a neque. Urna fusce
+                  diam at at magna faucibus dui tincidunt. Habitant aliquam tincidunt at quis sit.
+                  Adipiscing et morbi
+                  sed tristique ligula. Massa risus sociis id neque. Turpis ornare libero nisi
+                  maecenas amet ullamcorper
+                  tortor aliquam. Venenatis vel neque mauris eu gravida. Blandit convallis
+                  tincidunt volutpat non.
+                  Porttitor eget sed adipiscing egestas sodales ornare lobortis est. Lectus
+                  porttitor nibh risus aliquam
+                  proin nullam id fames arcu.
+                </p>
+                <h4>Key Benefits</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Venenatis viverra nunc mattis a turpis
+                  magnis. Scelerisque
+                  fermentum nunc fringilla ullamcorper diam eget felis netus. Feugiat facilisis
+                  sed a neque. Urna fusce
+                  diam at at magna faucibus dui tincidunt. Habitant aliquam tincidunt at quis sit.
+                  Adipiscing et morbi
+                  sed tristique ligula. Massa risus sociis id neque. Turpis ornare libero nis.
+                </p>
+                <div class="d-flex gap-5 pt-4">
+                  <figure>
+                    <img class="w-100" src="assets/images/index/singleservice2.png" alt="singlesecives2">
+                  </figure>
+                  <div class="d-flex flex-column justify-content-center gap-3">
+                    <div class="d-flex align-items-center gap-3 ">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                      <p>Lorem ipsum dolor sit amet consectetur Lacus. </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 ">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                      <p>Lorem ipsum dolor sit amet consectetur Lacus.</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 ">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                      <p>Lorem ipsum dolor sit amet consectetur Lacus.</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 ">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                      <p>Lorem ipsum dolor sit amet consectetur Lacus. </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 ">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                      <p>Lorem ipsum dolor sit amet consectetur Lacus. </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 ">
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                      <p>Lorem ipsum dolor sit amet consectetur Lacus. </p>
+                    </div>
+                  </div>
+                </div>
+                <p class="pt-4">Lorem ipsum dolor sit amet consectetur. Venenatis viverra nunc
+                  mattis a turpis magnis. Scelerisque
+                  fermentum
+                  nunc fringilla ullamcorper.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="staticBackdropVideo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered h-100 my-0 mx-auto">
+          <div class="modal-content d-flex align-items-center justify-content-center border-0">
+            <div class="modal-body">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                  class="fa-solid fa-xmark"></i></button>
+              <iframe src="https://www.youtube.com/embed/u31qwQUeGuM?si=o1Nt3XrgyYRKwJ13" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of 4.2 SingleServic_view section  -->
+    <!--1.14 footer section-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="d-flex flex-column gap-3">
+              <a href="index.html">
+                <img src="assets/images/footer logo.svg" alt="logo">
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Condimentum risus eu et lacus et eget. Enim enim
+                tempor nunc
+                consequat tempor sem iaculis ullamcorper.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-3">
+            <div class="d-flex flex-column  gap-3">
+              <h3>Quick Links</h3>
+              <ul class="d-flex flex-column justify-content-between ">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Contact.html">Help Centre</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5">
+            <div class="d-flex flex-column ">
+              <div class="d-flex flex-column gap-3">
+                <h3>Follow Us</h3>
+                <div class="d-flex gap-3">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex flex-column gap-3 pt-5">
+                <h3>Newsletter</h3>
+                <form class="d-flex Subscribe-massage" action="#">
+                  <input type="email" name="email" autocomplete="on" required placeholder="Type Your Email">
+                  <button type="submit" class="hover3">Subscribe</button>
+                </form>
+                <div class="validation Succes-box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Copyright">
+        <hr>
+        <div class="container d-flex justify-content-between">
+          <div class="d-flex align-items-center">
+            <p class="w-100 text-center">
+              Copyright 2024 TrashCure, All rights reserved.
+            </p>
+          </div>
+          <div class="d-flex align-items-center gap-4">
+            <p class=" text-center">
+              Terms and Conditions
+            </p>
+            <p class=" text-center">Terms and Conditions</p>
+            <p class=" text-center">Cookies Policy</p>
+          </div>
+        </div>
+      </div>
+      <button id="scrollTopBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+    </footer>
+    <!--End of 1.14 footer section-->
+  </div>
+
+  <!-- bootstrap min javascript -->
+  <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+  <!-- j Query -->
+  <script src="assets/js/jquery.js"></script>
+  <!-- slick slider js -->
+  <script src="assets/js/slick.min.js"></script>
+  <!-- main javascript -->
+  <script src="assets/js/custom.js"></script>
+  <!-- animation from javascript -->
+  <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 1500,
+    });
+  </script>
+
+</body>
+
+</html>

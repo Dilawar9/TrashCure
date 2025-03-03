@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TrashCure - Empowering Responsible Waste Management, Let's Make a Difference</title>
+    <meta name="keywords" content="TrashCure - Empowering Responsible Waste Management, Let's Make a Difference">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicons  -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo.svg">
+    <!-- framework of css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css">
+    <!-- style sheet of css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- responsive sheet of css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- font awesome icon link  -->
+    <link rel="stylesheet" href="assets/font-awesonw-lib/icon/all.min.css">
+    <!-- slick-slider link css -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- animation of css -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="OtherPages_bg">
+            <!-- 1.1. header section -->
+            <header>
+                <nav class="container navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a href="index.html" class="nav-logo p-0">
+                            <figure>
+                                <img src="assets/images/logo.svg" alt="logo">
+                            </figure>
+                        </a>
+                        <button class="open-aside" onclick="open_aside()" type="button">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse">
+                            <ul
+                                class="navbar-nav d-flex justify-content-center align-items-center gap-lg-4 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="About.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Service.html">Services</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="nav-link" href="#">
+                                        Pages<i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="SingleService.html">Single Service </a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="PricingPlan.html">Pricing Plan</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="Team.html">Team</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="SingleBlog.html">Single Blog </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="FAQs.html">FAQ</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="CommingSoon.html">Comming soon</a></li>
+                                        <li><a class="dropdown-item" href="Error.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div>
+                                <a href="Contact.html"><button class="hover1">Get a Quote</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- aside navigation slidebar-->
+                <aside>
+                    <div id="mySidenav" class="right-sidbar">
+                        <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+                            <figure class="navbar-brand">
+                                <a href="index.html"><img src="assets/images/logo.svg" alt="logo"></a>
+                            </figure>
+                            <button class="fa-solid fa-xmark " onclick="close_aside()"></button>
+                        </div>
+                        <ul>
+                            <li class="nav-item ">
+                                <a class="active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="About.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Service.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="d-flex align-items-center justify-content-between" id="slid-btn">
+                                    <button class="a-slid page-btn">Pages</button>
+                                    <i class="fa-solid fa-caret-down pe-2"></i>
+                                </div>
+                                <ul id="slid-drop">
+                                    <li><a href="FAQs.html">FAQs</a></li>
+                                    <li><a href="Team.html">Team</a></li>
+                                    <li><a href="testing.html">Testimonials</a></li>
+                                    <li><a href="Pricing.html">Pricing</a></li>
+                                    <li><a href="SinglePost.html">Single Post</a></li>
+                                    <li><a href="Services.html">Services</a></li>
+                                    <li><a href="CommingSoon.html">Coming Soon</a></li>
+                                    <li><a href="Error.html">404</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </header>
+            <!-- End of 1.1. header section  -->
+            <!-- 3.1 Service_hero section -->
+            <div class="Pages_hero">
+                <div class="container">
+                    <div class="d-flex flex-column">
+                        <h1>Services</h1>
+                        <div class="d-flex align-items-center">
+                            <h4>Home</h4>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                            <h4>Services</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End of 3.1 Service_hero section -->
+        </div>
+        <!-- 3.2 Our_service section  -->
+        <section class="Service Our_service">
+            <div class="container">
+                <div>
+                    <div class="d-flex gap-3">
+                        <h4>Our Services</h4>
+                        <span>
+                            <hr>
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-between ">
+                        <h2>Waste Management Solutions Tailored to You</h2>
+                        <div>
+                            <a href="SingleService.html" class=" hover2 ">View All</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div>
+                                <figure>
+                                    <img src="assets/images/index/service1.png" alt="">
+                                </figure>
+                                <div class="d-flex flex-column gap-1">
+                                    <h3>Garbage Pickup</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis et lacinia nibh nec orci
+                                        tincidunt vivamus.
+                                    </p>
+                                    <div class="d-flex gap-2 align-items-end">
+                                        <a href="SingleService.html">Read more</a>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div>
+                                <div class="d-flex flex-column gap-1">
+                                    <h3>Residential Recycling</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis et lacinia nibh nec orci
+                                        tincidunt vivamus.
+                                    </p>
+                                    <div class="d-flex gap-2 align-items-end">
+                                        <a href="SingleService.html">Read more</a>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <figure>
+                                    <img src="assets/images/index/service2.png" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div>
+                                <figure>
+                                    <img src="assets/images/index/service3.png" alt="">
+                                </figure>
+                                <div class="d-flex flex-column gap-1">
+                                    <h3>Dumpster Rental</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis et lacinia nibh nec orci
+                                        tincidunt vivamus.
+                                    </p>
+                                    <div class="d-flex gap-2 align-items-end">
+                                        <a href="SingleService.html">Read more</a>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div>
+                                <figure>
+                                    <img src="assets/images/index/service4.png" alt="">
+                                </figure>
+                                <div class="d-flex flex-column gap-1">
+                                    <h3>Junk Removal</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis et lacinia nibh nec orci
+                                        tincidunt vivamus.
+                                    </p>
+                                    <div class="d-flex gap-2 align-items-end">
+                                        <a href="SingleService.html">Read more</a>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div>
+                                <div class="d-flex flex-column gap-1">
+                                    <h3>Secure Destruction</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis et lacinia nibh nec orci
+                                        tincidunt vivamus.
+                                    </p>
+                                    <div class="d-flex gap-2 align-items-end">
+                                        <a href="SingleService.html">Read more</a>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <figure>
+                                    <img src="assets/images/index/service5.png" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div>
+                                <figure>
+                                    <img src="assets/images/index/service6.png" alt="">
+                                </figure>
+                                <div class="d-flex flex-column gap-1">
+                                    <h3>Electronic Waste Recycling</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Sagittis et lacinia nibh nec orci
+                                        tincidunt vivamus.
+                                    </p>
+                                    <div class="d-flex gap-2 align-items-end">
+                                        <a href="SingleService.html">Read more</a>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3.2 Our_service section  -->
+        <!-- 3.3 Service_Testimonial section  -->
+        <section class="Testimonial">
+            <div class="container">
+                <div class="d-flex gap-3">
+                    <h4>Testimonial</h4>
+                    <span>
+                        <hr>
+                    </span>
+                </div>
+                <div class="d-flex justify-content-between pt-3">
+                    <div class="d-flex flex-column gap-3">
+                        <h2>Our Latest Articles</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Condimentum risus eu et lacus et eget. Enim enim
+                            tempor
+                            nunc consequat tempor sem iaculis ullamcorper.</p>
+                    </div>
+                    <div class="Testimonial_slideBtn d-flex">
+                        <button class="prev">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="next">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="Testimonials_Slider">
+                <div class="d-flex flex-column align-items-center  position-relative ">
+                    <div class="d-flex gap-2">
+                        <figure class="d-flex align-items-center justify-content-center">
+                            <img src="assets/images/index/testimonial1.png" alt="test1">
+                        </figure>
+                    </div>
+                    <figure class="position-absolute">
+                        <img src="assets/images/icons/testimonial6.svg" alt="test6">
+                    </figure>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“Lorem ipsum dolor sit amet consectetur. Amet mauris varius adipiscing vel. Elementum
+                            dignissim
+                            sit sed odio. Egestas amet et neque cras et. Aliquam et aliquet proin massa.”</p>
+                        <div class="d-flex flex-column gap-1">
+                            <h4>Stacey Dach</h4>
+                            <p>Legacy Mobility Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center position-relative ">
+                    <div class="d-flex gap-2  ">
+                        <figure class="d-flex align-items-center justify-content-center">
+                            <img src="assets/images/index/testimonial2.png" alt="test1">
+                        </figure>
+                    </div>
+                    <figure class="position-absolute">
+                        <img src="assets/images/icons/testimonial6.svg" alt="test6">
+                    </figure>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“Lorem ipsum dolor sit amet consectetur. Amet mauris varius adipiscing vel. Elementum
+                            dignissim
+                            sit sed odio. Egestas amet et neque cras et. Aliquam et aliquet proin massa.”</p>
+                        <div class="d-flex flex-column gap-1 ">
+                            <h4>Shelley Schmitt</h4>
+                            <p>Customer Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center position-relative ">
+                    <div class="d-flex gap-2 ">
+                        <figure class="d-flex align-items-center justify-content-center">
+                            <img src="assets/images/index/testimonial3.png" alt="test1">
+                        </figure>
+                    </div>
+                    <figure class="position-absolute">
+                        <img src="assets/images/icons/testimonial6.svg" alt="test6">
+                    </figure>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“Lorem ipsum dolor sit amet consectetur. Amet mauris varius adipiscing vel. Elementum
+                            dignissim
+                            sit sed odio. Egestas amet et neque cras et. Aliquam et aliquet proin massa.”</p>
+                        <div class="d-flex flex-column gap-1">
+                            <h4>Bennie Treutel</h4>
+                            <p>Central Identity Administrator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center position-relative ">
+                    <div class="d-flex gap-2">
+                        <figure class="d-flex align-items-center justify-content-center">
+                            <img src="assets/images/index/testimonial4.png" alt="test1">
+                        </figure>
+                    </div>
+                    <figure class="position-absolute">
+                        <img src="assets/images/icons/testimonial6.svg" alt="test6">
+                    </figure>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“Lorem ipsum dolor sit amet consectetur. Amet mauris varius adipiscing vel. Elementum
+                            dignissim
+                            sit sed odio. Egestas amet et neque cras et. Aliquam et aliquet proin massa.”</p>
+                        <div class="d-flex flex-column gap-1">
+                            <h4>Kristine Abernathy</h4>
+                            <p>Legacy Mobility Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center position-relative ">
+                    <div class="d-flex gap-2 ">
+                        <figure class="d-flex align-items-center justify-content-center">
+                            <img src="assets/images/index/testimonial5.png" alt="test1">
+                        </figure>
+                    </div>
+                    <figure class="position-absolute">
+                        <img src="assets/images/icons/testimonial6.svg" alt="test6">
+                    </figure>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="d-flex gap-1">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>“Lorem ipsum dolor sit amet consectetur. Amet mauris varius adipiscing vel. Elementum
+                            dignissim
+                            sit sed odio. Egestas amet et neque cras et. Aliquam et aliquet proin massa.”</p>
+                        <div class="d-flex flex-column gap-1">
+                            <h4>Stewart Lindgren</h4>
+                            <p>Legacy Mobility Officer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3.3 Service_Testimonial section  -->
+        <!-- 3.4 Service-Pricing_plan section  -->
+        <section class="Pricing_plan">
+            <div class="container">
+                <div class="d-flex flex-column pb-5">
+                    <div class="d-flex gap-3">
+                        <h4>Pricing Plans</h4>
+                        <span>
+                            <hr>
+                        </span>
+                    </div>
+                    <h2>Simple Plans, Simplified Waste Management</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Condimentum risus eu et lacus et eget. Enim enim tempor
+                        nunc consequat tempor sem iaculis ullamcorper.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="d-flex flex-column p-5">
+                            <div class="d-flex flex-column gap-4">
+                                <figure>
+                                    <img src="assets/images/icons/pricing1.svg" alt="Pricing1">
+                                </figure>
+                                <h3>Residential Waste Managment</h3>
+                                <hr>
+                            </div>
+                            <p class="pb-4">Lorem ipsum dolor sit amet consectetur. Mattis non vestibulum.</p>
+                            <div class="d-flex flex-column gap-3">
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <a href="Contact.html" class="hover1">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="d-flex flex-column p-5">
+                            <div class="d-flex flex-column gap-4">
+                                <figure>
+                                    <img src="assets/images/icons/pricing2.svg" alt="Pricing1">
+                                </figure>
+                                <h3>Residential Waste Managment</h3>
+                                <hr>
+                            </div>
+                            <p class="pb-4">Lorem ipsum dolor sit amet consectetur. Mattis non vestibulum.</p>
+                            <div class="d-flex flex-column gap-3">
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <a href="Contact.html" class="hover1">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="d-flex flex-column p-5">
+                            <div class="d-flex flex-column gap-4">
+                                <figure>
+                                    <img src="assets/images/icons/pricing3.svg" alt="Pricing1">
+                                </figure>
+                                <h3>Residential Waste Managment</h3>
+                                <hr>
+                            </div>
+                            <p class="pb-4">Lorem ipsum dolor sit amet consectetur. Mattis non vestibulum.</p>
+                            <div class="d-flex flex-column gap-3">
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <a href="Contact.html" class="hover1">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3.4 Service-Pricing_plan section  -->
+        <!--1.14 footer section-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="d-flex flex-column gap-3">
+                            <a href="index.html">
+                                <img src="assets/images/footer logo.svg" alt="logo">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur. Condimentum risus eu et lacus et eget. Enim enim
+                                tempor nunc
+                                consequat tempor sem iaculis ullamcorper.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3">
+                        <div class="d-flex flex-column  gap-3">
+                            <h3>Quick Links</h3>
+                            <ul class="d-flex flex-column justify-content-between ">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="Service.html">Service</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                                <li><a href="Contact.html">Help Centre</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5">
+                        <div class="d-flex flex-column ">
+                            <div class="d-flex flex-column gap-3">
+                                <h3>Follow Us</h3>
+                                <div class="d-flex gap-3">
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-square-x-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column gap-3 pt-5">
+                                <h3>Newsletter</h3>
+                                <form class="d-flex Subscribe-massage" action="#">
+                                    <input type="email" name="email" autocomplete="on" required
+                                        placeholder="Type Your Email">
+                                    <button type="submit" class="hover3">Subscribe</button>
+                                </form>
+                                <div class="validation Succes-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Copyright">
+                <hr>
+                <div class="container d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <p class="w-100 text-center">
+                            Copyright 2024 TrashCure, All rights reserved.
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center gap-4">
+                        <p class=" text-center">
+                            Terms and Conditions
+                        </p>
+                        <p class=" text-center">Terms and Conditions</p>
+                        <p class=" text-center">Cookies Policy</p>
+                    </div>
+                </div>
+            </div>
+            <button id="scrollTopBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up"></i></button>
+        </footer>
+        <!--End of 1.14 footer section-->
+    </div>
+
+    <!-- bootstrap min javascript -->
+    <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- j Query -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- slick slider js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- main javascript -->
+    <script src="assets/js/custom.js"></script>
+    <!-- animation from javascript -->
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 1500,
+        });
+    </script>
+
+</body>
+
+</html>
